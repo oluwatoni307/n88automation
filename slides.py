@@ -3,7 +3,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # === Set up ===
-SERVICE_ACCOUNT_FILE = 'service.json'
+SERVICE_ACCOUNT_FILE = '/etc/secrets/service.json'
 TEMPLATE_PRESENTATION_ID = '1RuvpF6yzv2cBsXULKU6g4FpOcxY0BxYwHQFwkPnG9cg'
 FOLDER_ID = '1tm8mpJgD0_MYuIjsXfyMRVZFCFdVDepG'  # Replace with the folder ID from your personal Drive
 SCOPES = [
